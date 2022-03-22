@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'ember-quickstart',
+    modulePrefix: 'tailor-this-web',
     environment,
     rootURL: '/',
     locationType: 'auto',

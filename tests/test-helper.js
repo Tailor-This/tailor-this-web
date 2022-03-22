@@ -1,5 +1,5 @@
-import Application from 'ember-quickstart/app';
-import config from 'ember-quickstart/config/environment';
+import Application from 'tailor-this-web/app';
+import config from 'tailor-this-web/config/environment';
 import * as QUnit from 'qunit';
 import { setApplication } from '@ember/test-helpers';
 import { setup } from 'qunit-dom';

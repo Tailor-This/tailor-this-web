@@ -1,5 +1,5 @@
 import EmberRouter from '@ember/routing/router';
-import config from 'ember-quickstart/config/environment';
+import config from 'tailor-this-web/config/environment';
 
 export default class Router extends EmberRouter {
   location = config.locationType;
@@ -7,6 +7,15 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  this.route('home');
+  this.route('client', function() {
+    this.route('onboarding');
+  });
+
+  this.route('vendor', function() {
+    this.route('onboarding');
+  });
+  this.route('landing');
   this.route('about');
+  this.route('contact');
+  this.route('howto');
 });
